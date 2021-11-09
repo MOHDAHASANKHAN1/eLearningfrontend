@@ -1,0 +1,22 @@
+.navbar-brand{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item a{
+  color: #fff !important;
+}
+
+.log_main{
+  background-color: white;
+  margin-top: 90px;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+.log_main{
+  background-color: white;
+  margin-top: 58px;
+}
+	}

@@ -1,0 +1,22 @@
+.whatoffer{
+  background-color: #01a393;
+  border-top: 5px solid #000;
+}
+.companybox{
+  border-left: 3px solid #01a393;
+  padding-left: 15px;
+}
+.companyboxhead{
+  color: #01a393;
+}
+.fass{
+  font-size: 65px;
+  color: #01a393;
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+	.fass{
+  font-size: 40px;
+  color: #01a393;
+}
+}
