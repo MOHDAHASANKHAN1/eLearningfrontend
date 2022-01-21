@@ -14,7 +14,7 @@ export default function Views_on(){
 				<div class="card-body bg-dark">
 					<p class="card-text" id="card" style={{color: "#fff"}}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					<div class="d-grid gap-2">
-						<button class="btn btn-outline-info" type="button">View On Facebook</button>
+						<a href="https://www.facebook.com/profile.php?id=100043795833453" class="btn btn-outline-info" type="button">View On Facebook</a>
 					</div>
 				</div>
 			</div>
@@ -24,7 +24,7 @@ export default function Views_on(){
 				<div class="card-body bg-dark">
 					<p class="card-text" style={{color: "#fff"}}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					<div class="d-grid gap-2">
-						<button class="btn btn-outline-info" type="button">View On Instagram</button>
+						<a href="https://www.instagram.com/mo_ahsan_khan/" class="btn btn-outline-info" type="button">View On Instagram</a>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@ export default function Views_on(){
 				<div class="card-body bg-dark">
 					<p class="card-text" style={{color: "#fff"}}>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					<div class="d-grid gap-2">
-						<button class="btn btn-outline-info" type="button">View On LinkedIn</button>
+						<a href="https://www.linkedin.com/in/mo-ahasan-khan-0240b5205" class="btn btn-outline-info" type="button">View On LinkedIn</a>
 					</div>
 				</div>
 			</div>

@@ -39,10 +39,10 @@ export default function Footer(){
   	 		<div class="footer-col">
   	 			<h4>follow us</h4>
   	 			<div class="social-links">
-  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
-  	 				<a href="#"><i class="fab fa-twitter"></i></a>
-  	 				<a href="#"><i class="fab fa-instagram"></i></a>
-  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 				<a href="https://www.facebook.com/profile.php?id=100043795833453"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="https://mobile.twitter.com/MoAhsanKhan5"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://www.instagram.com/mo_ahsan_khan/"><i class="fab fa-instagram"></i></a>
+  	 				<a href="https://www.linkedin.com/in/mo-ahasan-khan-0240b5205"><i class="fab fa-linkedin-in"></i></a>
   	 			</div>
   	 		</div>
   	 	</div>

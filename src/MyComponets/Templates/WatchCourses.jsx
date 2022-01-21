@@ -63,21 +63,21 @@ function getdata(){
   const lnklc = localStorage.getItem('linkforlectures');
   
     axios
-    .get('https://elearning786.herokuapp.com' + lnkbk)
+    .get("https://elearning786.herokuapp.com" + lnkbk)
     .then( (deta) => {
       setBdata(deta.data)
       /*localStorage.removeItem('bcdata');
       localStorage.setItem('bcdata', JSON.stringify(deta.data));*/
     })
     axios
-    .get('https://elearning786.herokuapp.com' + lnknt)
+    .get("https://elearning786.herokuapp.com" + lnknt)
     .then( (deta) => {
       setNdata(deta.data)
       /*localStorage.removeItem('ncdata');
       localStorage.setItem('ncdata', JSON.stringify(deta.data));*/
     })
     axios
-    .get('https://elearning786.herokuapp.com' + lnklc)
+    .get("https://elearning786.herokuapp.com" + lnklc)
     .then( (deta) => {
       setLdata(deta.data)
       /*localStorage.removeItem('lcdata');

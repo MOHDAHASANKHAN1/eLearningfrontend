@@ -30,7 +30,8 @@ function Submit(data){
     .then( (res) => {
       if (res.data.message == "Successfully Registeruser") {
         localStorage.setItem('userinfo', JSON.stringify(res.data.user));
-        if (localStorage.getItem('userinfo')) {
+        const userinfo = localStorage.getItem('userinfo');
+        if (userinfo) {
           localStorage.setItem('tokenemailstudentuser', res.data.user);
           alert('You Have SuccessFully Registered');
           history.push("/");
@@ -44,7 +45,8 @@ function Submit(data){
         alert("This User " + res.data.user + " Is Already Exist")
       }else if (res.data.message == "Successfully Registeradmin") {
         localStorage.setItem('userinfo', JSON.stringify(res.data.user));
-        if (localStorage.getItem('userinfo')) {
+       const userinfo = localStorage.getItem('userinfo');
+        if (userinfo) {
           localStorage.setItem('tokenemailadminuser', res.data.user);
           alert('You Have SuccessFully Registered');
           history.push("/");
